@@ -12,7 +12,7 @@ class AIService:
         style_prompts = {
                 "emotional": (
                     "Escreva uma mensagem curta e emocional em português (no máximo 5 linhas), no estilo de WhatsApp. "
-                    "Use linguagem informal, (tipo 'nois', 'te amuh', 'juntin') "
+                    "Use linguagem informal"
                     "pra parecer real e espontânea. Use emojis com moderação. Tema: "
                 ),
             
@@ -23,7 +23,7 @@ class AIService:
             
                 "love": (
                     "Escreva uma declaração de amor curta em português (no máximo 5 linhas), no estilo de mensagem de WhatsApp. "
-                    "Use um tom fofo e sincero, com erros de digitação naturais (tipo 'mô', 'pakas', 'diia', 'eh') e alguns emojis românticos como 💗😻😍, mas sem exagerar. Tema: "
+                    "Use um tom fofo e sincero, com erros de digitação naturais e alguns emojis românticos como 💗😻😍, mas sem exagerar. Tema: "
                 )
             }
 
