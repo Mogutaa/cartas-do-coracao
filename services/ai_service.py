@@ -12,13 +12,13 @@ class AIService:
         style_prompts = {
                 "emotional": (
                     "Escreva uma mensagem curta e emocional em português (no máximo 5 linhas), no estilo de WhatsApp. "
-                    "Use linguagem informal, com alguns errinhos de digitação intencionais (tipo 'nois', 'te amuh', 'juntin') "
+                    "Use linguagem informal, (tipo 'nois', 'te amuh', 'juntin') "
                     "pra parecer real e espontânea. Use emojis com moderação. Tema: "
                 ),
             
                 "gratitude": (
                     "Escreva uma mensagem curta de gratidão em português (até 5 linhas), como se fosse mandada por WhatsApp. "
-                    "Use linguagem simples e carinhosa, com alguns errinhos naturais e emojis moderados pra parecer escrita real. Tema: "
+                    "Use linguagem simples e carinhosa, e emojis moderados pra parecer escrita real. Tema: "
                 ),
             
                 "love": (
