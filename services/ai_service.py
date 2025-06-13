@@ -10,13 +10,22 @@ class AIService:
         }
 
         style_prompts = {
-                "emotional": "Escreva uma mensagem emocional em português no estilo de mensagem de WhatsApp. Use linguagem informal, com alguns erros de digitação intencionais (como 'nois', 'te amuh', 'juntin') para parecer espontânea e real. Use emojis com moderação e não exagere na estilização. Tema: ",
+                "emotional": (
+                    "Escreva uma mensagem curta e emocional em português (no máximo 5 linhas), no estilo de WhatsApp. "
+                    "Use linguagem informal, com alguns errinhos de digitação intencionais (tipo 'nois', 'te amuh', 'juntin') "
+                    "pra parecer real e espontânea. Use emojis com moderação. Tema: "
+                ),
             
-                "gratitude": "Escreva uma mensagem de gratidão em português no estilo de mensagem de WhatsApp. Use uma linguagem simples e carinhosa, com alguns errinhos naturais de escrita para parecer que foi escrita por uma pessoa real. Use emojis com moderação. Tema: ",
+                "gratitude": (
+                    "Escreva uma mensagem curta de gratidão em português (até 5 linhas), como se fosse mandada por WhatsApp. "
+                    "Use linguagem simples e carinhosa, com alguns errinhos naturais e emojis moderados pra parecer escrita real. Tema: "
+                ),
             
-                "love": "Escreva uma declaração de amor em português no estilo de mensagem de WhatsApp. Use um tom fofo e sincero, com alguns errinhos de digitação que pareçam naturais (como 'mô', 'pakas', 'diia', 'eh'), sem exagerar. Adicione alguns emojis românticos como 💗😻😍 mas sem colocar em excesso. Tema: "
+                "love": (
+                    "Escreva uma declaração de amor curta em português (no máximo 5 linhas), no estilo de mensagem de WhatsApp. "
+                    "Use um tom fofo e sincero, com erros de digitação naturais (tipo 'mô', 'pakas', 'diia', 'eh') e alguns emojis românticos como 💗😻😍, mas sem exagerar. Tema: "
+                )
             }
-
 
         full_prompt = f"{style_prompts.get(style, '')}{prompt}. Use linguagem natural e pessoal."
 
