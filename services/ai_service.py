@@ -11,19 +11,24 @@ class AIService:
 
         style_prompts = {
                 "emotional": (
-                    "Escreva uma mensagem curta e emocional em português (no máximo 5 linhas), no estilo de WhatsApp. "
-                    "Use linguagem informal"
-                    "pra parecer real e espontânea. Use emojis com moderação. Tema: "
+                    "Escreva uma mensagem curta e emocional em português (no máximo 3 linhas), no estilo de WhatsApp. "
+                    "Use linguagem HIPER informal com erros de digitação intencionais (ex: 'eh', 'mim', 'agente', 'pra sempreh'). "
+                    "Adicione 5-7 emojis relevantes de forma orgânica. Inclua expressões coloquiais como 'nois por nois'. "
+                    "Misture sentimentos conflitantes (ex: brigas x amor) naturalmente. Tema: "
                 ),
-            
+                
                 "gratitude": (
-                    "Escreva uma mensagem curta de gratidão em português (até 5 linhas), como se fosse mandada por WhatsApp. "
-                    "Use linguagem simples e carinhosa, e emojis moderados pra parecer escrita real. Tema: "
+                    "Escreva uma mensagem curta de gratidão em português (até 3 linhas), como mensagem de WhatsApp. "
+                    "Use linguagem EXTREMAMENTE informal com erros propositais (ex: 'tudoh', 'amuh', 'voceh'). "
+                    "Inclua 4-6 emojis espalhados naturalmente no texto. Adote um tom íntimo e possessivo (ex: 'é delah/delah'). "
+                    "Termine com expressão carinhosa e abreviações. Tema: "
                 ),
-            
+                
                 "love": (
-                    "Escreva uma declaração de amor curta em português (no máximo 5 linhas), no estilo de mensagem de WhatsApp. "
-                    "Use um tom fofo e sincero, com erros de digitação naturais e alguns emojis românticos como 💗😻😍, mas sem exagerar. Tema: "
+                    "Escreva uma declaração de amor curta em português (máximo 4 linhas), estilo WhatsApp autêntico. "
+                    "Use linguagem COLQUIAL com erros naturais (ex: 'completamo', 'sempreh', 'chatinhah'). "
+                    "Adicione 6-8 emojis românticos e cotidianos (😍🫵🏽💏🌹💗😏). "
+                    "Inclua: 1) Marcador temporal, 2) Fala de terceiros, 3) Confissão imperfeita. Tema: "
                 )
             }
 
