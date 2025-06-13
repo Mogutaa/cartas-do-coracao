@@ -10,9 +10,11 @@ class AIService:
         }
 
         style_prompts = {
-            "emotional": "Escreva um texto emocional e sincero em português que expresse: ",
-            "gratitude": "Crie uma mensagem de gratidão detalhada sobre: ",
-            "love": "Desenvolva uma declaração de amor profunda com referência a: "
+            "emotional": "Escreva um texto emocional em português, com muitos erros propositais de digitação, estilo bem brega e exagerado, cheio de emojis românticos 🥺💘😮‍💨, parecendo mensagem de casal grudado no WhatsApp. A mensagem deve parecer espontânea e bem real, como algo que alguém apaixonado escreveria com o coração, falando sobre: ",
+            
+            "gratitude": "Crie uma mensagem de gratidão em português, com tom leve e carinhoso, cheia de errinhos de escrita e emojis 🥹🙏🏽✨, bem no estilo mensagem de WhatsApp breguinha, como se tivesse sido escrita por alguém simples e grato de verdade, sobre: ",
+            
+            "love": "Escreva uma declaração de amor em português no estilo beeem brega e apaixonado 😍💗💍, com erros propositais, linguagem de casal de WhatsApp, muitos emojis, jeitinho carinhoso, exagerado, e com drama fofo. Algo do tipo: 'Aii môzin hj nois ja tamo junto faz 10 diiaah 🥺💘 parece pouco mais parece tbm que já eh pra sempreee 💍'. A declaração deve parecer escrita por alguém todo bobo de amor, sobre: "
         }
 
         full_prompt = f"{style_prompts.get(style, '')}{prompt}. Use linguagem natural e pessoal."
